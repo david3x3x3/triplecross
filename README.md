@@ -8,6 +8,11 @@ for the 7 hardest triplecross starting positions. The program only
 considers the positions where the left plunger is down, so the number
 of positions is half what Jaap has on his site.
 
+I've uploaded a Python program and a C program. They both do the same
+thing, but the C program is much faster. On my computer the Python
+program takes about 30 hours to run for the first time, and the C
+program takes about an hour.
+
 These are the positions followed by the solution to each:
 
 ```
