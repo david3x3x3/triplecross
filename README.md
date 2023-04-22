@@ -74,7 +74,7 @@ urdc lucd rucd lucd rucd lucd urdc uldc
 ```
 
 The first time you run the program it builds a lookup table. Subsequent runs
-load the table without needing to recompute. The file is 702 megabites. It
+load the table without needing to recompute. The file is 702 megabytes. It
 stores two bits for each position. The information stored is the distance from a
 solved state mod 3. This is sufficient because for any position we can look at
 all the adjacent positions and choose one that is one less.
