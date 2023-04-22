@@ -10,6 +10,7 @@ of positions is half what Jaap has on his site.
 
 These are the positions followed by the solution to each:
 
+```
     ..
 .b4.--.
 3..1a-.
@@ -65,6 +66,7 @@ lucd lucd urdc lucd rucd uldc uldc rucd
 
 rucd rucd lucd lucd lucd urdc urdc lucd rucd uldc urdc urdc urdc uldc urdc urdc
 urdc lucd rucd lucd rucd lucd urdc uldc
+```
 
 The first time you run the program it builds a lookup table. Subsequent runs
 load the table without needing to recompute. The file is 702 megabites. It
@@ -74,6 +76,7 @@ all the adjacent positions and choose one that is one less.
 
 Here's the output of the program as it builds the lookup table:
 
+```
    depth             num            total    time to
                   positions                  compute
 depth  0 - count          1 total          1 0:00:00
@@ -101,9 +104,11 @@ depth 21 - count  719688345 total 2828062626 1:00:19
 depth 22 - count  111515380 total 2939578006 1:02:08
 depth 23 - count     959587 total 2940537593 1:02:09
 depth 24 - count          7 total 2940537600 1:02:09
+```
 
 You can provide a position on the command line by removing all whitespace, e.g.:
 
+```
 ./tc -b2..4-...1...-a.3
 rucd rucd lucd lucd lucd urdc urdc lucd rucd uldc urdc urdc urdc uldc urdc urdc urdc lucd rucd lucd rucd lucd urdc uldc
-
+```
